@@ -1,3 +1,3 @@
 # stacks-dotnet-packages-core
 
-Common classes used by other the Amido packages and projects
+Common classes used by other Amido packages and projects
