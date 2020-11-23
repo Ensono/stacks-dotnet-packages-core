@@ -39,15 +39,15 @@ variables:
 trigger:
   branches:
     include:
-      - master
+      - main
       - feature/*
       - bug*
 
-# Only build PRs into Master
+# Only build PRs into Main
 pr:
   branches:
     include:
-      - master
+      - main
 
 resources:
   repositories:
