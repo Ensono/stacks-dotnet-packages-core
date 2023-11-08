@@ -33,7 +33,7 @@ variables:
     value: "Stacks"
   - name: Package.Public
     value: true
-  #- name: Package.nuget_service_connection
+  # - name: Package.nuget_service_connection
   #  value: NuGetAmidoStacksServiceConnection
   - name: Package.Path
     value: "src/Amido.Stacks.Core"
