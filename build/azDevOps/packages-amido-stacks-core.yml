@@ -33,8 +33,8 @@ variables:
     value: "Stacks"
   - name: Package.Public
     value: true
-  - name: Package.nuget_service_connection
-    value: NuGetAmidoStacksServiceConnection
+  #- name: Package.nuget_service_connection
+  #  value: NuGetAmidoStacksServiceConnection
   - name: Package.Path
     value: "src/Amido.Stacks.Core"
   - name: Test.Path
@@ -117,7 +117,9 @@ stages:
               package_feed: "$(Package.Feed)"
               publish_symbols: true
               publish_public: "$(Package.Public)"
-              nuget_service_connection: "$(Package.nuget_service_connection)"
+              # Nuget
+              # nuget_service_connection: "$(Package.nuget_service_connection)"
+              nuget_service_connection: false
               # Secret Config
               cosmosdb_secret: false
               # .NET Core version variables
