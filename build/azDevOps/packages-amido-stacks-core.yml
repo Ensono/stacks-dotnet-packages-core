@@ -119,7 +119,7 @@ stages:
               publish_public: "$(Package.Public)"
               # Nuget
               # nuget_service_connection: "$(Package.nuget_service_connection)"
-              nuget_service_connection: false
+              use_nuget_service_connection: false
               # Secret Config
               cosmosdb_secret: false
               # .NET Core version variables
